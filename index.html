@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nieu - AI</title>
+    <link rel="icon" type="image/x-icon" href="Pictures/favicon.ico">
+</head>
+<header>
+
+</header>
+<body>
+<div class="center">
+    <div id="popup">
+        <h1>Gratulerer!</h1>
+        <p>Den kunstlige intelligensen rangerte vitsen din som en fantastisk vits! Du får nå 25% rabatt på ditt neste kjøp hos Nieu.<br><br> Rabattkoden din er: 1111-111-1111</p>
+        <br>
+        <button id="close">Wow!</button>
+    </div>
+</div>  
+    <img src="Pictures/Nieu_logo_hvit.png" alt="" id="logo">
+    
+  <div id="videoContainer" oncontextmenu="return false;">
+      <!-- Loading video -->
+      <video id="loadingVideo" src="Pictures/Load.mp4" autoplay muted playsinline></video>
+  </div>
+  
+  <video oncontextmenu="return false;" id="backgroundVideo" src="Pictures/Base.mp4" autoplay loop muted playsinline>
+  </video>
+
+  <div class="div2">
+      <div class="inputStyle">       
+         <h2>Dagens vitser:</h2>
+          <input type="text" id="inputTekst" placeholder="Skriv en vits her..." value="">
+          <button oncontextmenu="return false;" id="myBtn" type="button" value="Vurder" onclick="test()">Prøv   
+              <i id="loadingIcon" class="fa fa-circle-o-notch fa-spin" style="display: none;"></i>  
+          </button>
+          </div></div>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
