@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/Pictures/Scratches.otf);
+    src: url(Pictures/Scratches.otf);
   }
 
   @font-face {
     font-family: Omnes;
-    src: url(/Pictures/Omnes\ Light.ttf);
+    src: url(Pictures/Omnes\ Light.ttf);
   }
 
 body{
@@ -83,7 +83,7 @@ body{
 
 .inputStyle{
     padding: 10px;
-    background-image: url(/Pictures/paper.jpg);
+    background-image: url(Pictures/paper.jpg);
     background-color: rgba(239, 231, 231, 0);
     background-repeat: no-repeat;
     background-size: 100%;
